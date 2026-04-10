@@ -33,7 +33,7 @@ connectDB().then(async () => {
 });
 
 app.use(cors({
-  origin: ['https://web-1bsqoagfu-limeonssz-9484s-projects.vercel.app', 'http://localhost:5173'],
+  origin: ['https://web-nine-wheat-9q5sw7lkbw.vercel.app', 'http://localhost:5173'],
   credentials: true
 }));
 app.use(express.json());
